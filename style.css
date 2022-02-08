@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-nav a {
+    margin-right: 50px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+/* End */
+
+
+/* jumbotron */
+
+.jumbotron {
+    height: 100vh;
+    padding: 2rem 5rem;
+    margin-top: -78px;
+}
+
+.jumbotron h1 {
+    font-weight: 800;
+    margin-top: 200px;
+}
+
+.jumbotron span {
+    font-size: 45px;
+    color: #7971ea;
+}
+
+.jumbotron p {
+    font-size: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.jumbotron .btn {
+    margin-top: 20px;
+    height: 45px;
+    width: 125px;
+    border-radius: 20px;
+    background-color: #7971ea;
+}
+
+.jumbotron img {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.jumbotron a {
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+}
+
+.effect-wrap .effect {
+    position: absolute;
+    z-index: -1;
+}
+
+.effect-1 {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #7971ea;
+    right: 15%;
+    bottom: 8%;
+    animation: spin 10s linear infinite;
+}
+
+.effect-2 {
+    width: 150px;
+    height: 150px;
+    border: 20px solid #393e46;
+    border-radius: 50%;
+    left: 65%;
+    top: -90px;
+    animation: leftBounce 3s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes leftBounce {
+
+    0%,
+    100% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(25px);
+    }
+}
+
+/* End */
+
+
+
+/* About */
+.about {
+    padding: 10px;
+    height: 250vh;
+}
+
+.about h1 {
+    color: #393e46;
+    font-size: 30px;
+    border-bottom: 2px solid #393e46;
+    text-align: center;
+    width: 170px;
+    margin: auto;
+    padding-top: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about span {
+    color: #7971ea;
+}
+
+.about img {
+    width: 250px;
+}
+
+.about h3 {
+    color: #393e46;
+    font-size: 24px;
+    text-align: center;
+}
+
+.about h5 {
+    text-align: center;
+    color: #7971ea;
+    margin-top: 100px;
+}
+
+.about p {
+    color: #393e46;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.statistik {
+    background-color: #7971ea;
+    margin-top: 150px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.statistik h2 {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.kompetensi {
+    margin-top: 150px;
+}
+
+.kompetensi h3 {
+    margin-bottom: 50px;
+}
+
+.kompetensi p {
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: -3px;
+}
+
+.kompetensi i {
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.kompetensi h5 {
+    margin-top: 10px;
+}
+
+
+
+/* End */
+
+
+
+/* Contact Us */
+
+.contact {
+    height: 110vh;
+}
+
+.contact h1 {
+    color: #393e46;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 35px;
+    border-bottom: 2px solid #393e46;
+    width: 200px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.contact span {
+    color: #7971ea;
+}
+
+.contact iframe {
+    width: 80vh;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.contact label {
+    color: #EEEEEE;
+    margin-top: 10px;
+}
+
+.contact .btn {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #7971ea;
+}
+
+.mapsLabel {
+    background-color: #393e46 !important;
+    margin-top: 100px;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+/* End */
+
+/* scroll top */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: rgb(107, 90, 210);
+    opacity: 0.8;
+    padding: 0 0.3rem;
+    border-radius: 0.4rem;
+    z-index: 10;
+    transition: 0.4s;
+}
+
+.scrollup:hover {
+    background-color: rgb(88, 72, 173);
+}
+
+.bi-arrow-up {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.show-scroll {
+    bottom: 5rem;
+}
+
+/* end */
+
+
+
+
+
+
+
+
+
+
+/* Page Rpl */
+
+.rpl {
+    background-color: #7971ea;
+    height: 300vh;
+    color: #EEEEEE;
+}
+
+.rpl h1 {
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    width: 180px;
+    margin: auto;
+}
+
+.rpl h3 {
+    text-align: center;
+    margin-top: 100px;
+    color: #393e46;
+    font-weight: bold;
+}
+
+.rpl h5 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.rpl p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.accordion-body {
+    background-color: #393e46 !important;
+}
+
+.accordion {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.accordion-item {
+    margin-top: 5px;
+}
+
+.recoment h5 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+.content-recoment {
+    margin-top: 50px;
+    height: 150px;
+    width: 400px;
+    background-color: #393e46;
+
+
+}
+
+.content-recoment img {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.content-text {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.content-recoment .btn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #7971ea;
+}
+
+.content-recoment .btn:hover {
+    background-color: rgb(165, 29, 29);
+}
+
+
+.popular {
+    margin-top: 150px;
+}
+
+.popular h4 {
+    text-align: center;
+}
+
+.popular h6 {
+    color: #393e46;
+    text-align: center;
+    margin-top: -5px;
+    font-size: 13px;
+}
+
+.popular h5 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.progress-bar {
+    background-color: #393e46;
+}
+
+.progres h5 {
+    margin-top: 20px;
+}
+
+
+/* End */
